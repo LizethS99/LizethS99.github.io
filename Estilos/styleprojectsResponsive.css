@@ -1,0 +1,290 @@
+@media screen and (min-width: 481px) and (max-width: 777px) {
+    body{
+        min-height: 300vh;
+      }
+    img.trips{
+        position: absolute;
+        width: 670px;
+        height: 500px;
+        top: 120px;
+        left: 10%;
+        transform: translate(-65%, 15%);
+    }
+    .proyecto1 h2{
+        max-width: 1000px;
+        position: relative;
+        top: 25px;
+        left: -90%;
+        margin: 0 auto;
+        padding: 30px;
+        font-size: 40px;
+    }
+    .proyecto1 h3{
+        max-width: 900px;
+        width: 500px;
+        position: relative;
+        top: 230px;
+        left: -30%;
+        transform: translate(-44%, 65%);
+        margin: 0 auto;
+        padding: 30px;
+        font-size: 27px;
+    }
+
+    img.calcu{
+        position: absolute;
+        width: 400px;
+        height: 550px;
+        top: 900px;
+        left: 20%;
+        transform: translate(-65%, 15%);
+    }
+    .proyecto2 h2{
+        max-width: 400px;
+        position: relative;
+        top: 800px;
+        left: -45%;
+        margin: 0 auto;
+        padding: 20px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .proyecto2 h3{
+        max-width: 400px;
+        width: 500px;
+        position: relative;
+        top: 1350px;
+        left: 0%;
+        transform: translate(-44%, 65%);
+        margin: 0 auto;
+        padding: 30px;
+        font-size: 27px;
+    }
+    img.web{
+        position: absolute;
+        width: 650px;
+        height: 450px;
+        top: 1740px;
+        left: 45%;
+        transform: translate(-65%, 15%);
+    }
+    .proyecto3 h2{
+        max-width: 500px;
+        position: relative;
+        top: 1600px;
+        left: -27%;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+        font-size: 40px;
+    }
+    .proyecto3 h3{
+        max-width: 300px;
+        width: 500px;
+        position: relative;
+        top: 1800px;
+        left: 40%;
+        transform: translate(-44%, 65%);
+        margin: 0 auto;
+        padding: 30px;
+        font-size: 25px;
+    }
+    .footer p{
+        text-align: center;
+    }
+}
+@media screen and (min-width: 778px) and (max-width: 970px) {
+    body{
+        min-height: 400vh;
+      }
+    img.trips{
+        position: absolute;
+        width: 670px;
+        height: 500px;
+        top: 120px;
+        left: 10%;
+        transform: translate(-65%, 15%);
+    }
+    .proyecto1 h2{
+        max-width: 1000px;
+        position: relative;
+        top: 25px;
+        left: -90%;
+        margin: 0 auto;
+        padding: 30px;
+        font-size: 40px;
+    }
+    .proyecto1 h3{
+        max-width: 900px;
+        width: 500px;
+        position: relative;
+        top: 230px;
+        left: -30%;
+        transform: translate(-44%, 65%);
+        margin: 0 auto;
+        padding: 30px;
+        font-size: 27px;
+    }
+
+    img.calcu{
+        position: absolute;
+        width: 400px;
+        height: 550px;
+        top: 900px;
+        left: 20%;
+        transform: translate(-65%, 15%);
+    }
+    .proyecto2 h2{
+        max-width: 400px;
+        position: relative;
+        top: 800px;
+        left: -45%;
+        margin: 0 auto;
+        padding: 20px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .proyecto2 h3{
+        max-width: 400px;
+        width: 500px;
+        position: relative;
+        top: 1350px;
+        left: 0%;
+        transform: translate(-44%, 65%);
+        margin: 0 auto;
+        padding: 30px;
+        font-size: 27px;
+    }
+    img.web{
+        position: absolute;
+        width: 650px;
+        height: 450px;
+        top: 1740px;
+        left: 45%;
+        transform: translate(-65%, 15%);
+    }
+    .proyecto3 h2{
+        max-width: 500px;
+        position: relative;
+        top: 1600px;
+        left: -27%;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+        font-size: 40px;
+    }
+    .proyecto3 h3{
+        max-width: 300px;
+        width: 500px;
+        position: relative;
+        top: 1800px;
+        left: 40%;
+        transform: translate(-44%, 65%);
+        margin: 0 auto;
+        padding: 30px;
+        font-size: 25px;
+    }
+    .footer p{
+        text-align: center;
+    }
+}
+
+/* Estilos específicos para dispositivos móviles y pantallas pequeñas */
+@media screen and (max-width: 480px) {
+    body{
+        min-height: 370vh;
+      }
+    img.trips{
+        position: absolute;
+        width: 370px;
+        height: 300px;
+        top: 120px;
+        left: 48%;
+        transform: translate(-65%, 15%);
+      }
+      .proyecto1 h2{
+        max-width: 1000px;
+        position: relative;
+        top: 25px;
+        left: -30%;
+        margin: 0 auto;
+        padding: 30px;
+        font-size: 30px;
+      }
+      .proyecto1 h3{
+        max-width: 300px;
+        width: 500px;
+        position: relative;
+        top: 130px;
+        left: 15%;
+        transform: translate(-44%, 65%);
+        margin: 0 auto;
+        padding: 30px;
+        border: 1px solid #DFD2E1;
+        background-color: #DFD2E1;
+        color: black;
+      }
+
+      img.calcu{
+        position: absolute;
+        width: 200px;
+        height: 350px;
+        top: 650px;
+        left: 60%;
+        transform: translate(-65%, 15%);
+      }
+      .proyecto2 h2{
+        max-width: 400px;
+        position: relative;
+        top: 600px;
+        left: -5%;
+        margin: 0 auto;
+        padding: 20px;
+        font-size: 25px;
+      }
+      .proyecto2 h3{
+        max-width: 200px;
+        width: 500px;
+        position: relative;
+        top: 800px;
+        left: 20%;
+        transform: translate(-44%, 65%);
+        margin: 0 auto;
+        padding: 30px;
+        border: 1px solid #DFD2E1;
+        background-color: #DFD2E1;
+        color: black;
+      }
+      img.web{
+        position: absolute;
+        width: 350px;
+        height: 250px;
+        top: 1300px;
+        left: 60%;
+        transform: translate(-65%, 15%);
+      }
+      .proyecto3 h2{
+        max-width: 300px;
+        position: relative;
+        top: 1170px;
+        left: -5%;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+        font-size: 25px;
+      }
+      .proyecto3 h3{
+        max-width: 300px;
+        width: 500px;
+        position: relative;
+        top: 1500px;
+        left: 40%;
+        transform: translate(-44%, 65%);
+        margin: 0 auto;
+        padding: 30px;
+      }
+      .footer p{
+        text-align: center;
+      }
+    }
+

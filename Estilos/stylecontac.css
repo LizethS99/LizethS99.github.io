@@ -1,0 +1,54 @@
+.main {
+    text-align: center; /* Centra el contenido del main */
+    padding: 40px; /* Espaciado alrededor del contenido del main */
+  }
+  .texto p{
+    margin: 50px;
+  }
+  .formulario{
+    top: 50vh;
+  }
+  form {
+    display: inline-block;
+    text-align: left;
+    background-color: rgba(178, 188, 247, 0.596);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    
+  }
+  
+  form 
+
+  form label,
+  form input,
+  form textarea {
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0); /* Letras blancas */
+    width: 90px;
+  }
+  
+  form input[type="text"],
+  form input[type="tel"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccbcb;
+    border-radius: 5px;
+  }
+  form input[type="submit"] {
+    background-color: rgba(238,174,202,1);
+    color: rgba(1, 1, 1, 0.856);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease; /* Transición del botón */
+  }
+  
+  form input[type="submit"]:hover {
+    transform: translateY(-5px); /* Movimiento hacia arriba al pasar el cursor */
+  }
+  

@@ -1,0 +1,191 @@
+  @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Quicksand&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    /*background: rgb(76,149,186);
+    background: linear-gradient(0deg, rgba(76,149,186,1) 0%, rgba(222,138,255,0.8181818181818181) 100%);*/
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/*Encabezado*/
+.header{
+    width: 100%;
+    position: relative;
+    /*background-color: #dfd2e144;*/
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+.logo{
+    flex: 1;
+}
+
+img.milogo{
+    
+    width: 300px;
+    height: 150px;
+
+}
+.header-content{
+    flex: 2;
+    text-align: center;
+}
+
+.container .menu a{
+    display: inline-block;
+    padding: 15px 10px;
+    line-height: normal;
+    text-decoration: none;
+    color: blueviolet;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    font-size: 25px;
+}
+.container .menu a:hover{
+    border-bottom: 2px solid #ffffff;
+    padding: 5px 10px;
+}
+.main h1{
+    display: inline-block;
+    padding: 15px 10px;
+    line-height: normal;
+    text-decoration: none;
+    color: blueviolet;
+    transition: all 0.3s ease;
+    border-bottom: 5px solid transparent;
+    font-size: 400%;
+}
+.main h1:hover{
+    border-bottom: 2px solid #fcfcfc;
+    padding: 5px 10px;
+}
+h1{
+    font-family: 'Handjet', cursive;
+    margin-top: 50px;
+}
+img.github{
+    width: 30px;
+    height: 25px;
+   
+}
+img.linkeding{
+    width: 30px;
+    height: 28px;
+}
+img.gmail{
+    width: 30px;
+    height: 28px;
+}
+.main{
+    flex: 1;
+    padding: 20px;
+}
+.main h1{
+    display: flex;
+    justify-content: center;
+}
+.Sec1{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 100px;
+    text-align: center;
+    background-color: #DFD2E1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 3s ease;
+}
+.Sec1:hover{
+    opacity: 0;
+}
+/*Footer */
+footer{
+    background-color: #dfd2e1d2;
+}
+.footer{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer p{
+    margin: 10px 0;
+}
+
+
+/* Estilos específicos para tabletas y pantallas medianas */
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    /* Agrega aquí tus estilos para tabletas y pantallas medianas */
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 500px;
+        margin: auto;
+    }
+    .container .menu a{
+        display: inline-block;
+        padding: 25px 10px;
+        line-height: normal;
+        text-decoration: none;
+        color: blueviolet;
+        transition: all 0.3s ease;
+        border-bottom: 2px solid transparent;
+        font-size: 25px;
+    }
+    img.milogo{
+    
+        width: 300px;
+        height: 200px;
+    
+    }
+    .main h2{
+        font-size: 25px;
+    }
+}
+
+/* Estilos específicos para dispositivos móviles y pantallas pequeñas */
+@media screen and (max-width: 480px) {
+    /* Agrega aquí tus estilos para dispositivos móviles y pantallas pequeñas */
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 300px;
+        margin: auto;
+    }
+    .container .menu a{
+        display: inline-block;
+        padding: 15px 10px;
+        line-height: normal;
+        text-decoration: none;
+        color: blueviolet;
+        transition: all 0.3s ease;
+        border-bottom: 2px solid transparent;
+        font-size: 20px;
+    }
+    img.milogo{
+    
+        width: 200px;
+        height: 150px;
+    
+    }
+    .main h2{
+        font-size: 17px;
+    }
+}

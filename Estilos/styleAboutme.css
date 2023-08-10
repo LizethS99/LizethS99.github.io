@@ -1,0 +1,241 @@
+body{
+  min-height: 450vh;
+}
+
+*h1{
+    margin-top: 10px;
+}
+.yo {
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+  }
+  
+  .yo .uno h2 {
+    max-width: 600px;
+    position: relative;
+    top: 40px;
+    left: -100%;
+    margin: 10px auto;
+    padding: 50px;
+    border: 1px solid #ddd;
+    color: #fafafa;
+  }
+  
+  .yo .uno img {
+    position: absolute;
+    top: 55%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    bottom: -20px; /* Ajustamos la distancia de la sombra desde abajo */
+    border-radius: 40px; /* Orillas redondeadas */
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.644); /* Sombra */
+    
+  }
+  .habilidades{
+    top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+  }
+  .habilidades h1{
+    position: absolute;
+    display: inline-block;
+    left: 36%;
+  }
+  .habilidades h2{
+    max-width: 900px;
+    position: relative;
+    top: 300px;
+    left: -30%;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid #ddd;
+    color: #fafafa;
+  }
+  /*Cursos*/
+  .cursos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 60dvh;
+  }
+  
+ img.Micros{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    top: 60%;
+    left: 20%;
+    transform: translate(-65%, 15%);
+    bottom: -20px; /* Ajustamos la distancia de la sombra desde abajo */
+    border-radius: 30px; /* Orillas redondeadas */
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.644);
+ }
+
+ .Microsoft{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    
+ }
+ .Microsoft h2{
+    max-width: 500px;
+    position: relative;
+    top: 150px;
+    left: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #dfd2e168;
+    border: 1px solid #DFD2E1;
+    color: #fafafa;
+ }
+ .Microsoft h3{
+    max-width: 2000px;
+    position: relative;
+    top: 100%;
+    left: -35%;
+    transform: translate(-44%, 65%);
+    margin: 0 auto;
+    padding: 60px;
+    border: 1px solid #DFD2E1;
+    background-color: #DFD2E1;
+    color: black;
+ }
+
+/*Segundo curso*/
+
+img.cur{
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  top: 400px;
+  left: 150%;
+  transform: translate(-65%, 15%);
+  bottom: -20px; /* Ajustamos la distancia de la sombra desde abajo */
+  border-radius: 30px; /* Orillas redondeadas */
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.644);
+}
+
+.Curies{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+.Curies h2{
+  max-width: 1000px;
+  position: relative;
+  top: 500px;
+  left: -180%;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #dfd2e168;
+  border: 1px solid #DFD2E1;
+  color: #fafafa;
+}
+.Curies h3{
+  max-width: 2000px;
+  position: relative;
+  top: 500px;
+  left: 30%;
+  transform: translate(-44%, 65%);
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #DFD2E1;
+  background-color: #DFD2E1;
+  color: black;
+}
+.image-container {
+  position: relative;
+}
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: opacity 0.9s ease;
+}
+.image-container:hover .image-overlay {
+  opacity: 1;
+}
+/*Curso 3*/
+img.esc{
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  top: 800px;
+  left: 50%;
+  transform: translate(-155%, 15%);
+  bottom: -20px; /* Ajustamos la distancia de la sombra desde abajo */
+  border-radius: 30px; /* Orillas redondeadas */
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.644);
+}
+.Escom{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.Escom h2{
+  max-width: 400px;
+  position: relative;
+  top: 1000px;
+  left: 80%;
+  margin: 0 auto;
+  text-align: justify;
+  padding: 25px;
+  font-size: 20px;
+  background-color: #dfd2e168;
+  border: 1px solid #DFD2E1;
+  color: #fafafa;
+}
+.Escom h3{
+  max-width: 400px;
+  position: relative;
+  top: 1100px;
+  left: -25%;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 65px;
+  font-size: 20px;
+  border: 1px solid #DFD2E1;
+  background-color: #DFD2E1;
+  color: black;
+}
+
+.conter{
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+.conter{
+  max-width: 500px;
+  position: relative;
+  top: 1770px;
+  left: 0%;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+  background-color: #dfd2e170;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opacity 3s ease;
+}
+.conter:hover{
+  opacity: 0;
+}
